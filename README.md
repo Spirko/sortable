@@ -4,6 +4,15 @@
 
 The main motivation for this project was to learn how to write an abstract base class with optional `@abstractmethod ` methods.  It's still too clever for pylance, but it works.
 
+## Packages, Classes, and Files
+
+* `sortable` - the main package
+  * [core.py](sortable/core.py): The main package code.
+  * `Sortable` - the abstract base class which fills in missing comparison methods.
+* [THOUGHT_PROCESS.md](THOUGHT_PROCESS.md): Some of the why and how this was written.
+* [example.py](example/example.py): Quick example showing that an intermediate
+  can activate part of `Sortable` while the final subclass gets the rest.
+
 ## Features
 
 - Abstract base class for sortable objects
